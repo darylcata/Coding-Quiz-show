@@ -35,5 +35,5 @@ LIVE PAGE:
 https://darylcata.github.io/Coding-Quiz-show/
 
 
-##License
+## License
 MIT
