@@ -22,16 +22,17 @@ In this challenge we take on further use of functions along with local storage, 
 
 ## Mock-Up
 
+![Coding Quiz](https://user-images.githubusercontent.com/117319952/212520751-d8636ef8-91a1-48fe-bea8-f49d4528587c.gif)
 
 ## Links
 
 GITHUB:
 
-https://github.com/darylcata/Random-Password-generator
+https://github.com/darylcata/Coding-Quiz-show
 
 LIVE PAGE:
 
-https://darylcata.github.io/Random-Password-generator/
+
 
 ##License
 MIT
