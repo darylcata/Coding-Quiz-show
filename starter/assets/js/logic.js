@@ -15,6 +15,8 @@ var countDownTimer;
 var endScreen = document.querySelector("#end-screen");
 var finalScore = document.querySelector("#final-score");
 var userInput = document.querySelector("#initials");
+//setting maxlength of userinput
+userInput.maxLength = 3;
 var submitButton = document.querySelector("#submit");
 var newInitials;
 
@@ -64,7 +66,7 @@ function checkAnswer() {
 }
 
 //function to make timer go down a second 
-//and goesto endgame zero or ran out of questions
+//and goes to endgame when zero or ran out of questions
 function startTimer() {
     countDownTimer = setInterval(function () {
         timer--;
@@ -91,7 +93,7 @@ function wrongFeedback() {
     feedBackdiv.textContent = "Wrong!"
 }
 
-//setting my clearfeedback with timeout
+//function to clear the feedback
 function clearFeedBack() {
     feedBackdiv.setAttribute("class", "feedback hide");
     feedBackdiv.textContent = "";

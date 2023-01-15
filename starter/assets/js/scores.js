@@ -2,6 +2,9 @@ var viewHighScores = document.querySelector("#highscores");
 var listOfHighScores = JSON.parse(localStorage.getItem("initials"));
 var clearButton = document.querySelector("#clear");
 
+// this is run once highscores.hmtl is called
+// contains a for loop that displays the lists
+//saved at local storage
 function seeHighscores() {
 
     for (var i = 0; i < listOfHighScores.length; i++) {
